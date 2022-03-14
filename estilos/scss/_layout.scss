@@ -1,0 +1,383 @@
+    *{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+
+    }
+
+    body{
+    width:100%;
+    }
+
+    
+
+    /******BARRA DE NAVEGACION****/
+    .container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+    width:100%;
+    padding:0;
+    }
+
+    .logo{
+    padding-left:20px;
+    }
+
+    .adress{
+    padding-right:20px;
+    }
+
+    .nav-item{
+    padding-left: 30px;
+    padding-right: 20px;
+    }
+
+    .navbar-nav {
+    display: flex;
+    flex-direction: column;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+    align-items: center;
+    }
+  
+    button.navbar-toggler{
+    margin-right:20px;
+    }
+
+    .barra{
+    margin-left: 170px;
+    }
+
+    .navbar-nav .dropdown-menu {
+    position: static;
+    margin-left: -50px;
+    }
+
+
+
+    /*****VIDEO INDEX*******/
+
+
+    .container-video {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    padding-top: 42.85%; /*16:9*/
+    background-color: #212529;
+    }
+    
+    .responsive-iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    }
+
+
+/**********FINALIZA VIDEO************/
+
+    /*********INDEX********/
+
+
+    .imgIndex {
+    width: 100%;
+    margin-bottom: 20px;
+    }
+
+    /**********CAROUSEL SPEED**********/
+    
+    $carousel-control-transition: opacity .3s ease;
+
+
+    
+
+    /**********INICIA TEXTO INDEX**********/
+
+    
+
+    .linea1{
+    margin-top: 20px;
+    margin-bottom:20px;
+    margin:auto;
+    width:40%;
+    border:whitesmoke solid 3px;
+    color:black;
+    }
+
+
+
+
+    /************MODELOS****************/
+    
+    .row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+    height:fit-content;
+    }
+
+    .row {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(-1 * var(--bs-gutter-y));
+    margin-right: 0px;
+    margin-left: 0px; 
+    }
+
+    
+
+    .column {
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+    & .img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+    }
+    }
+
+    .card {
+    transition: 0.3s;
+    }
+
+
+    .container {
+    padding: 2px 16px;
+    }
+
+
+    .card {
+    transition: 0.3s;
+    border-radius: 5px; 
+    }
+
+    img {
+    border-radius: 5px 5px 0 0;
+    }
+
+
+    /*NOSOTROS PRINCIPAL*/
+
+
+    .img-nos{
+    display:flex;
+    justify-content: center;
+    }
+
+
+
+    /*****CONTACTO*****/
+
+    .contacto{
+    width:100%;
+    }
+
+    .formulario{
+    width:100%;
+    padding:20px;
+    }
+
+  
+    /********FOOTER******/
+    .d-flex{
+    display:flex;
+    justify-content:center;
+    }
+
+
+    /*******PROXIMAMENTE********/
+    
+    .bgimg {
+    background-image: url("/assets/img/pronto.jpg");
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+
+
+
+    .ver{
+    margin-top: 100px;
+    width: 100%;
+    }
+
+
+    .cooming2{
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto; 
+    margin-top: 35px;
+    }
+
+    
+
+    .linea{
+    margin-top: 20px;
+    margin:auto;
+    width:40%;
+    border:whitesmoke solid 3px;
+    color:whitesmoke;
+    }
+
+    
+    
+
+    
+      /********TIENDA*********/ 
+      
+      .wrapper-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 20rem);
+    justify-content: center;
+    }
+      
+    .containerTienda {
+    overflow: hidden;
+    box-shadow: 0px 2px 8px 0px var(--clr-gray-light);
+    background-color: white;
+    text-align: center;
+    border-radius: 1rem;
+    margin-top: 0.2rem;
+    font-style: none;
+    height:70px;
+    }
+      
+    .cardT {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    text-align: center;
+    margin: 30px auto;
+    border-radius: 1rem;
+    height:280px;
+    }
+
+
+        /******MODELOS PAGINA*****/
+
+    .modelos-index{
+    background-color: #263238;
+    }
+
+    .wrapper-grid-modelos {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 20rem);
+    justify-content: center;
+    margin-bottom:25px;
+    }
+
+    .cardM {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    text-align: center;
+    margin: 30px auto;
+    padding: 0 15px;
+    border-radius: 1rem;
+    height:280px;
+    margin-bottom:25px;
+    background-color: grey;
+    }
+
+          
+
+      /*********CONTACTO***********/
+                  
+    #formulario{
+    margin:15px;
+    }
+      form > div {
+          clear: both;
+          overflow: hidden;
+          padding: 1px;
+          margin: 0 0 10px 0;
+          }
+      form > div > fieldset > div > div {
+          margin: 0 0 5px 0;
+          }
+      form > div > label,
+      legend {
+            width: 25%;
+            float: left;
+            padding-right: 10px;
+          }
+      form > div > div,
+      form > div > fieldset > div {
+            width: 75%;
+            float: right;
+          }
+      form > div > fieldset label {
+            font-size: 90%;
+          }
+      fieldset {
+            border: 0;
+            padding: 0;
+          }
+          
+      input[type=text],
+      input[type=email],
+      textarea {
+            width: 100%;
+            border-top: 1px solid #ccc;
+            border-left: 1px solid #ccc;
+            border-right: 1px solid #eee;
+            border-bottom: 1px solid rgb(34, 31, 31);
+          }
+      input[type=text],
+      input[type=email]{
+            width : 50%;
+          }
+
+      input[type=text]:focus,
+      input[type=email]:focus,
+      textarea:focus {
+            outline: 0;
+            border-color: #4697e4;
+          }
+    
+          
+          
+
+          //////*******NOSOTROS PAGINA*******//////////
+
+    .containerrobo{
+    padding-top: 10px;
+    padding-left: 0px;
+    margin-bottom:25px;
+    }
+
+
+    #rob{
+    margin-top:30px;
+    }
+
+    #first-sec{
+    padding-bottom: 10px;
+    }
+            
+    #secondsec{
+    padding-top:10px;
+    }
+            
+    #nose{
+    width: 200px;
+    height: 300px;
+    }
+            
+    #first-pic{
+    background-color: white;
+    }
+            
+    #sec-pic{
+    background-color: white;
+    }
+            
+    #third-pic{
+    background-color: white;
+    }
+
+

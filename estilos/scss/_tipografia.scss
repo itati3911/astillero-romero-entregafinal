@@ -1,0 +1,102 @@
+    /*******GENERAL********/
+    
+    a {
+    text-decoration: none;
+    padding:5px;
+    }
+    
+
+    /*******INDEX******/
+
+    .logor h1 {
+    text-align: center;
+    background-color: #263238;
+    color: whitesmoke;
+    font-family: 'Great Vibes', cursive;
+    font-size:80px;
+    padding-top:5px;
+    }
+
+    .tituloEsencia, .parrafo {
+    font-family: "Playfair Display", serif;
+    text-align: center;
+    font-weight: bold;
+    font-size: 3.4375rem;
+    padding:20px;
+    }
+    
+    .parrafo {
+    font-size: 1.875rem;
+    font-style: italic;
+    padding:20px;
+    }
+    
+    .parrafo2 {
+    font-family: "Roboto", sans-serif;
+    font-size: 1.5625rem;
+    text-align: center; 
+    padding:20px;
+    }
+    
+    #copyright {
+    font-family: "Roboto", sans-serif;
+    text-align: center; }
+
+    #copyright a {
+    font-size: 1rem; }
+
+
+/*********MODELOS*********/
+
+    .tituloModelos{
+    text-align: center;
+    padding-top: 45px;
+    }
+    
+    .tituloModelos-index{
+    font-family: "Playfair Display", serif;
+    margin-top: 20px;
+    color: whitesmoke;
+    text-align: center;
+    }
+    
+
+    /********NOSOTROS******/
+    .text-nos{
+    text-align: justify;
+    }
+
+    #tituloNos{
+    text-align: center;
+    }
+
+
+    /****VESTIMENTA****/
+
+    .cooming{
+    font-family: "Raleway", sans-serif;
+    font-size: 4em;
+    text-align: center;
+    vertical-align:middle;
+    color:whitesmoke;
+    }
+
+
+    #tienda{
+    font-style: none;
+    color:black;
+    }
+
+    .cooming3{
+    font-family: "Raleway", sans-serif;
+    font-size: 1em;
+    text-align: center;
+    vertical-align:middle;
+    color:whitesmoke;
+    }
+
+
+    input[type=submit]:hover {
+    background-color: lightgrey;
+    }
+

@@ -1,0 +1,185 @@
+  
+
+  /*****MODELOS****/
+
+
+  @media screen and (min-width: 1024px){
+  .modelos{
+    height:400px;
+  }
+  }
+
+  @media screen and (min-width: 1400px){
+  .modelos{
+    height:450px;
+  }
+  }
+
+  @media screen and (min-width: 1800px){
+  .modelos{
+    height:550px;
+  }
+  }
+
+  /*PASAR A DOS COLUMNAS */
+  @media screen and (max-width: 768px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+  .modelos{
+      height:800px;
+  }
+  .logor h1{
+    font-size: 40px;
+  }
+  }
+
+
+
+
+  /*texto llamador*/
+  @media screen and (min-device-width : 600px) and (max-device-width : 992px) {
+  .logor h1{
+    top:30%;
+  }
+  }
+
+  /*secciones navbar*/
+  @media screen and (min-device-width : 1024px) { 
+    .barra{
+      margin-left: 300px;
+      }
+  }
+
+  @media screen and (min-device-width : 1200px) { 
+    .barra{
+      margin-left: 670px;
+      }
+  }
+
+
+  /*contacto*/
+
+  @media (max-width: 600px) {
+    form > div {
+      margin: 0 0 15px 0; 
+    }
+    form > div > label,
+    legend {
+        width: 100%;
+      float: none;
+      margin: 0 0 5px 0;
+    }
+    form > div > div,
+    form > div > fieldset > div {
+      width: 100%;
+      float: none;
+    }
+    input[type=text],
+    input[type=email],
+    textarea {
+      width: 100%; 
+    }
+  }
+  @media (min-width: 1200px) {
+    form > div > label,
+      legend {
+        text-align: right;
+    }
+  }
+
+
+  /**********NOSOTROS**********/
+  @media only screen and (max-width:600px)  {
+    .containerNos{
+    grid-template-columns: 1fr;
+      grid-template-rows: repeat(6,1fr);
+      grid-template-areas:
+      "img3"
+      "texto3"
+      "img1"
+      "texto1"
+      "img2"
+      "texto2"
+    
+    }
+  }
+  
+
+
+    /*****CAROUSEL******/
+
+  /* Smartphones (portrait) ----------- */
+  @media only screen and (max-width : 320px) {
+  .carousel-inner{
+    height: 400px;
+  }
+  .carousel-item img{
+    height:400px;
+    overflow: hidden;
+  }
+
+  .imgIndex {
+    width: 100%;
+    margin-bottom: 20px;
+    height:300px;
+  }
+  .containe {
+    height:40px;
+    }
+
+    .logor{
+      height:40px;
+    }
+    .logor h1{
+      height:40px;
+    }
+    .frase-video{
+        height:40px;
+        font-size:30px;
+
+    }
+
+    .tituloEsencia{
+      font-size: 35px;
+    }
+    }
+  
+    
+  @media only screen and (min-device-width:321px) and (max-device-width: 767px) {
+    .carousel-inner{
+      height:400px;
+    }
+    .carousel-item img{
+      height:400px;
+      overflow: hidden;
+    }
+
+    .imgIndex {
+      width: 100%;
+      margin-bottom: 20px;
+      height:400px;
+    }
+
+    .containe {
+    height:40px;
+    }
+
+    .logor{
+      height:40px;
+    }
+    .logor h1{
+      height:40px;
+    }
+    .frase-video{
+        height:40px;
+        font-size:30px;
+
+    }
+    }
+    
+
+
+
+
